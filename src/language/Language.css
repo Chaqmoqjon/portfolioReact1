@@ -1,0 +1,52 @@
+.lang__container{
+    position: relative;
+}
+.lang__ul{
+    position: fixed;
+    right: 30px;
+    top: 20px;
+}
+.lang__ul li{
+    margin: 10px 0;
+    width: 100px;
+    text-align: right;
+}
+.lang__ul li button{
+    width: 120px;
+    text-align: right;
+    padding:  0 10px 0 10px;
+    height: 50px;
+    background: #2c2c6bc9;
+    border-radius: 1.7rem;
+    z-index: 100;
+}
+.lang__ul li button h2{
+    display: inline;
+    font-size: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: rgb(175, 175, 175);
+    /* display: none; */
+}
+.lang__ul li button span{
+    font-size: 20px;
+}
+.lang__ul li button:hover{
+    background: #4cb3fd9c;
+}
+/* =========== MEDIA QUERIES (MEDIUM DEVCES) ================= */
+@media screen and (max-width: 1024px) {
+    .lang__ul{
+        right: 10px;
+    }
+    .lang__ul li button{
+        width: max-content;
+    }
+    .lang__ul li button h2{
+        display: none;
+    }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVCES) ================= */
+@media screen and (max-width: 600px) {
+}
