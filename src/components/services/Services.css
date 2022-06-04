@@ -24,7 +24,7 @@
 }
 .service__head h3{
     color: var(--color-bg);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
 }
 .service__list{
@@ -42,7 +42,7 @@
     margin-top: 2px;
 }
 .service__list p{
-    font-size: 1.1rem;
+    font-size: .8rem;
 }
 /* =========== MEDIA QUERIES (MEDIUM DEVCES) ================= */
 @media screen and (max-width: 1024px) {
@@ -53,6 +53,14 @@
     .service{
         height: auto;
     }
+    .service__head h3{
+        color: var(--color-bg);
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .service__list p{
+        font-size: .9rem;
+    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVCES) ================= */
@@ -61,5 +69,8 @@
         grid-template-columns:  1fr;
         gap: 1.5rem;
         
+    }
+    .service__list p{
+        font-size: 1.1rem;
     }
 }

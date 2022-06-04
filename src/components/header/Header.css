@@ -1,5 +1,5 @@
 header{
-    height: 800px;
+    height: 1000px;
     padding: 4rem;
     overflow: hidden;
 }
@@ -30,7 +30,7 @@ header{
     position: absolute;
     left: 0;
     bottom: 2rem;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 .header__socials::after{
     content: '';
