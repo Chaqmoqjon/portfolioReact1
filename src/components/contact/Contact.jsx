@@ -37,21 +37,21 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='con__icon'/>
             <h2>Email</h2>
-            <h4>Chaqmoqjon@gmail.com</h4>
+            <h3>Chaqmoqjon@gmail.com</h3>
             <a href="mailto:chaqmoqjon@gmail.com" target='_blank'>{t('habar')}</a>
           </article>
 
           <article className="contact__option">
             <RiLinkedinFill className='con__icon'/>
             <h2>Linkedin</h2>
-            <h4>Sardorbek Odiljonov</h4>
+            <h3>Sardorbek Odiljonov</h3>
             <a href="https://linkedin.com/in/sardorbek-odiljonov-199b08228" target='_blank'>{t('habar')}</a>
           </article>
 
           <article className="contact__option"> 
             <BsTelegram className='con__icon'/>
             <h2>Telegram</h2>
-            <h4>@Chaqmoqjon</h4>
+            <h3>@Chaqmoqjon</h3>
             <a href="https://telegram.me/chaqmoqjon" target='_blank'>{t('habar')}</a>
           </article>
         </div>

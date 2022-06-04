@@ -24,7 +24,7 @@
 }
 .service__head h3{
     color: var(--color-bg);
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 .service__list{
@@ -42,9 +42,8 @@
     margin-top: 2px;
 }
 .service__list p{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
-
 /* =========== MEDIA QUERIES (MEDIUM DEVCES) ================= */
 @media screen and (max-width: 1024px) {
     .services__container{
