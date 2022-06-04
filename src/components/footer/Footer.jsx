@@ -22,9 +22,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://linkedin" target='_blank'><RiLinkedinFill/></a>
-        <a href="https://instagram" target='_blank'><BsTelegram/></a>
-        <a href="https://github" target='_blank'><MdOutlineEmail/></a>
+        <a href="https://linkedin.com/in/sardorbek-odiljonov-199b08228" target='_blank'><RiLinkedinFill/></a>
+        <a href="https://telegram.me/chaqmoqjon" target='_blank'><BsTelegram/></a>
+        <a href="https://chaqmoqjon@gmail.com" target='_blank'><MdOutlineEmail/></a> 
       </div>
       <div className="footer__copright">
         <small className='chaqmoqjon'>&copy; {t('oxiri')}</small>

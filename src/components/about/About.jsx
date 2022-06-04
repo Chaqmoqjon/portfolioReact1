@@ -5,11 +5,24 @@ import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import { useTranslation } from 'react-i18next'
+import { gsap, ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to('about1',{
+  scrollTrigger: {
+      trigger: '.about',
+      start: '90% center',
+      end: 'center 30%',
+      
+      // markers: true,
+      toggleClass: 'about2'
+  }
+})
 
 const About = () => {
   const {t} = useTranslation()
   return (
-    <section id='about'>
+    <section className='about1' id='about'>
       <h5>{t('men_haq1')}</h5>
       <h2>{t('men_haq2')}</h2>
       <div className="container about__container">

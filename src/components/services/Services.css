@@ -11,12 +11,10 @@
     transition: var(--transition);
 }
 .service:hover{
-    /* background: transparent; */
-    transform: scale(1.1);
-    border-color: var(--color-primary-variant);
-    cursor: default;
-    box-shadow:  28px 28px 25px #1f1f4c,
-               -28px -28px 25px #39398c;
+    transform: scale(1.01);
+  border-color: var(--color-primary-variant);
+  cursor: default;
+  box-shadow: 18px 18px 20px #1f1f4c, -18px -18px 20px #39398c;
 }
 .service__head{
     background: var(--color-primary);

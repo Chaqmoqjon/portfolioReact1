@@ -14,15 +14,11 @@
 }
 .experience__container > div:hover{
     /* background: transparent; */
+    transform: scale(1.01);
     border-color: var(--color-primary-variant);
     cursor: default;
-
-    transform: scale(1.1);
-    border-color: var(--color-primary-variant);
-    cursor: default;
-    box-shadow:  28px 28px 25px #1f1f4c,
-               -28px -28px 25px #39398c;
-}
+    box-shadow: 18px 18px 20px #1f1f4c, -18px -18px 20px #39398c;
+  }
 .experience__container > div h3{
     text-align: center;
     margin-bottom: 2rem;

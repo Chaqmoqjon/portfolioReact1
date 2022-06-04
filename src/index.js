@@ -1,3 +1,4 @@
+import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
@@ -6,7 +7,6 @@ import { initReactI18next } from "react-i18next";
 import LanuageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
 import "flag-icon-css/css/flag-icons.min.css";
-import React from "react";
 
 i18n
   .use(initReactI18next)
@@ -28,7 +28,9 @@ i18n
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Suspense> */}
+      <App/>
+    {/* </Suspense> */}
   </React.StrictMode>,
   document.getElementById('root')
 
