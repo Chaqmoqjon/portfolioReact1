@@ -24,10 +24,10 @@ const Footer = () => {
       <div className="footer__socials">
         <a href="https://linkedin.com/in/sardorbek-odiljonov-199b08228" target='_blank'><RiLinkedinFill/></a>
         <a href="https://telegram.me/chaqmoqjon" target='_blank'><BsTelegram/></a>
-        <a href="https://chaqmoqjon@gmail.com" target='_blank'><MdOutlineEmail/></a> 
+        <a href="mailto:chaqmoqjon@gmail.com" target='_blank'><MdOutlineEmail/></a> 
       </div>
       <div className="footer__copright">
-        <small className='chaqmoqjon'>&copy; {t('oxiri')}</small>
+        <small className='chaqmoqjon'>&copy; {t('oxiri')}</small> 
       </div>
     </footer> 
   )

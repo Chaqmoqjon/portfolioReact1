@@ -1,5 +1,5 @@
 header{
-    height: 135vh;
+    height: 800px;
     padding: 4rem;
     overflow: hidden;
 }
@@ -64,7 +64,7 @@ header{
 /* =========== MEDIA QUERIES (MEDIUM DEVCES) ================= */
 @media screen and (max-width: 1024px) {
     header{
-        height: 135vh;
+        /* height: 135vh; */
     }
     .header__socials, .scroll__down {
         margin: 0 -4rem;
@@ -72,9 +72,9 @@ header{
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVCES) ================= */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     header{
-        height: 190vh;
+        /* height: 190vh; */
     }
     .header__socials, .scroll__down {
         display: none;
