@@ -104,6 +104,13 @@ article p{
     article p{
       font-size: 1rem;
     }
+    .about__card:hover{
+      transform: scale(1.008);
+      box-shadow: none;
+  }
+  .about__card{
+    margin-bottom: 25px;
+  }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVCES) ================= */

@@ -74,10 +74,14 @@ header{
 /* =========== MEDIA QUERIES (SMALL DEVCES) ================= */
 @media screen and (max-width: 768px) {
     header{
-        /* height: 190vh; */
+        height: 900px;
     }
     .header__socials, .scroll__down {
         display: none;
+    }
+    .meImg{
+      width: 70%;
+      margin: auto;
     }
 }
 

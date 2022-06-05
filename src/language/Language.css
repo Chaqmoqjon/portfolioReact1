@@ -41,6 +41,7 @@
     }
     .lang__ul li button{
         width: max-content;
+        border-radius: 50%;
     }
     .lang__ul li button h2{
         display: none;

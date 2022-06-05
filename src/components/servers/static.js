@@ -27,14 +27,14 @@ export const data = [
     {
       id: 2,
       image: IMG3,
-      title: 'Rendom Lotto',
+      title: 'Random Lotto',
       github: 'https://github.com/chaqmoqjon/rendomLotto',
       demo: 'https://rendom50.netlify.app'
     },
     {
       id: 3,
       image: IMG4,
-      title: 'Boothtrap Build',
+      title: 'Bootstrap Build',
       github: 'https://github.com/chaqmoqjon/boothtrapBuild',
       demo: 'https://boothtrapbuild.netlify.app'
     },

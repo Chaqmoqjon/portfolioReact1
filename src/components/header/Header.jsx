@@ -44,7 +44,7 @@ const Header = () => {
             </a>{" "}
             for the inspiration
           </p>
-        </div> */}
+        </div> */} 
 
         <h5>{t("salom")}</h5>
         <h1>{t("ism")}</h1>

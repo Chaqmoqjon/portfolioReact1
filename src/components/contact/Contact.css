@@ -56,6 +56,14 @@ textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  .contact__option:hover{
+    transform: scale(1.008);
+    box-shadow: none;
+    
+}
+.contact__option{
+  margin-bottom: 20px;
+}
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVCES) ================= */
