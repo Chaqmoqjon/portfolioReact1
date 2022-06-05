@@ -46,6 +46,9 @@
     .lang__ul li button h2{
         display: none;
     }
+    .lang__ul button span{
+        padding: 0 15px;
+    }
 }
 
 /* =========== MEDIA QUERIES (SMALL DEVCES) ================= */
