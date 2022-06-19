@@ -48,7 +48,7 @@ header{
     margin-top: 4rem;
 }
 .meImg{
-    mask-image: linear-gradient(var(--color-primary), transparent);
+    mask-image: linear-gradient(var(--color-primary), var(--color-primary),  transparent);
     object-fit: cover;
     border-radius: 60px 60px 0 0;
 }
